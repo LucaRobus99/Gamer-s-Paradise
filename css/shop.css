@@ -1,0 +1,147 @@
+#gamesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    color: white;
+}
+
+select:focus {
+    border: 2px solid purple;
+}
+
+.card {
+    flex-basis: calc(33.33% - 20px);
+    max-width: 300px;
+    margin: 0 10px 20px;
+    background-color: #212020;
+    border: 1px solid #e1e1e1;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    border-radius: 6px;
+    border: 1px solid #e1e1e1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#filters.scrolled {
+    background-color: rgba(192, 192, 192, 0.90);
+    color: #000;
+}
+
+.card-link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.card-link:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.card h5 {
+    padding: 8px;
+    margin: 0;
+}
+
+.card p {
+    color: yellow;
+    padding: 8px;
+    margin: 0;
+}
+
+#filters {
+    position: sticky;
+    top: 70px;
+    width: 100%;
+    color: white;
+    padding: 20px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    transition: background-color 0.3s;
+}
+
+select {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 6px;
+    color: white;
+    background-color: black;
+    border: 3px solid rgba(128, 128, 128, 0.5);
+}
+
+select:hover {
+    border: 3px solid violet;
+}
+
+select:focus {
+    border: 3px solid violet;
+}
+
+select option:checked {
+    border-color: violet;
+}
+
+.select-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.select-wrapper select {
+    padding-right: 30px;
+}
+
+.select-wrapper .close-icon {
+    position: absolute;
+    top: 0px;
+    right: 2px;
+    font-size: 10px;
+    color: white;
+    padding: 2px;
+    background-color: red;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+input[type="checkbox"] {
+    margin-left: 5px;
+    width: 20px;
+    height: 15px;
+    margin-right: 10px;
+}
+
+label {
+    font-size: 20px;
+}
+
+.required-checkbox {
+    background-color: aqua;
+}
+
+.required-checkbox:checked {
+    background-color: aqua;
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        flex-basis: calc(50% - 20px);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .card {
+        flex-basis: calc(100% - 20px);
+    }
+}

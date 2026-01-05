@@ -1,0 +1,33 @@
+
+.list-group-item p{
+    color: black;
+}
+h4{
+    color: black;
+}
+
+#gameDataContainer {
+    text-align: center;
+    padding: 20px;
+}
+
+.game-image {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Stili per schermi più piccoli */
+@media (max-width: 768px) {
+    #gameDataContainer {
+        padding: 10px;
+    }
+}
+.table {
+    max-width: 900px;
+    margin: auto;
+    margin-bottom: 50px; /* Aggiungi un margine inferiore di 100px */
+}
+.row {
+    max-width: 70%;
+    margin: auto;
+}

@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Stile per il footer */
+.fixed-bottom-footer {
+    background-color: black;
+    color: white;
+
+    margin-top: auto;
+}
+
+main {
+    min-height: calc(80.8vh - 0px);
+
+}

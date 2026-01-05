@@ -1,0 +1,91 @@
+.navbar {
+    background-color: black;
+    font-family: 'Arial', monospace;
+
+}
+#logo {
+
+    width: 80px; /* Imposta la larghezza a 200 pixel */
+    height: 80px; /* Imposta l'altezza a 100 pixel */
+}
+
+body{ 
+    padding-top: 40px; /* Adjust this value as needed */
+    background-image: url('../img/background2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%; /* Copre l'intera larghezza e metà dell'altezza */
+    font-family: 'Arial', monospace;
+}
+h1,li,p{ 
+    color: white;
+}
+/* Stili per il menu di login e registrazione ridotto in dimensioni */
+
+
+.small-nav {
+    max-width:180px; /* Imposta la larghezza massima desiderata */
+    margin: 0 auto;   /* Centra il menu di navigazione */
+}
+
+
+/* Stili per il menu di navigazione delle console */
+.navbar-nav {
+    text-align: center; /* Allinea il testo al centro */
+}
+
+.nav-item {
+    display: inline-block; /* Visualizza gli elementi in linea */
+    margin-right: 10px; /* Spazio tra gli elementi */
+}
+
+.nav-link {
+    color: white; /* Colore del testo */
+    font-size: 16px; /* Dimensione del testo */
+    text-decoration: none; /* Rimuovi la sottolineatura del testo */
+}
+
+.card {
+    margin-top: 100px;
+    background-color: black;
+    border-radius: 10px;
+    border-color: purple;
+}
+.card label,h3,h2{
+  color: white;
+
+}
+.btn:not(.btn-danger),button{ 
+    border-radius: 6px;
+    background-color: purple;
+    border-color: purple;
+}
+.card-header,tr,p{
+    color: white;
+}
+
+@media (max-width: 768px) {
+    tr {
+        display: block;
+        margin-bottom: 15px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 10px;
+    }
+
+    td {
+        display:flex;
+    }
+
+    th {
+        display: block;
+    }
+}   
+
+.nav-link{ 
+    font-size: 18px;
+}
+input{ 
+    color: white;
+}
+
+
