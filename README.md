@@ -52,13 +52,7 @@ This project was developed as part of the **Web Technologies** course. The appli
 
 ## ⚙️ Installation
 
-1. **Clone the repository**:
-```bash
-git clone [https://github.com/your-username/gamers-paradise.git](https://github.com/your-username/gamers-paradise.git)
-
-```
-
-
+1. **Clone the repository**.
 2. **Database Setup**: Import the `gamersparadisedb.sql` file into your MySQL environment (e.g., via phpMyAdmin).
 3. **Configuration**: Update your database credentials in the `config.php` file.
 4. **Local Server**: Run the project using a local server environment like **XAMPP, MAMP, or WAMP**.
@@ -78,7 +72,3 @@ git clone [https://github.com/your-username/gamers-paradise.git](https://github.
 Project developed for the **Web Technologies course** – University of Turin (Università di Torino).
 
 
-
-Ora puoi copiare questo testo nel tuo file `README.md` su GitHub!
-
-```
