@@ -67,6 +67,10 @@ This project was developed as part of the **Web Technologies** course. The appli
 
 ---
 
+## 👥 Contributors
+* **Davide Robustelli** — [@xDavikx](https://github.com/xDavikx)
+* **Luca Robustelli** - [@LucRobus99](https://github.com/LucaRobus99)
+---
 ## 👤 Author
 
 Project developed for the **Web Technologies course** – University of Turin (Università di Torino).
